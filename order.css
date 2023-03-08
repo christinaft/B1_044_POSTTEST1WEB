@@ -1,0 +1,46 @@
+form {
+    max-width: 500px;
+    margin: 60px;
+  } 
+
+.order{
+    padding: 15px 0 15px 150px;
+}
+
+label {
+    margin-bottom: 10px;
+  }
+  
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 15px 0 0px 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 1px;
+  }
+  
+input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+input[type="submit"] {
+    background-color: #3C2A21;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: b;
+  }
+  

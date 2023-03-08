@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+}
+
+header{
+  background: linear-gradient(to right, #E96479,#f7e7d8, #7DB9B6);
+  color: #f7e7d8;
+  font-family: perpetua;
+  padding: 10px 0px 10px 30px;
+}
+
+header p{
+  font-size: 300%;
+  font-weight: bold;
+  position: absolute;
+  right:75%;
+  top: 7%;
+}
+
+nav{
+  padding: 15px 0 15px 40px;
+  font-family: perpetua;
+  background-color: #f7e7d8;
+}
+
+nav a{
+  padding: 10px;
+  color:#3C2A21;
+  background-color: #f7e7d8;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.satu:hover{
+  background-color: #E96479;
+}
+
+body{
+  background-image: url('cookiebg.png');
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+main{
+  color: #3C2A21;
+  padding: 90px 200px 10px 0px;
+  font-family: perpetua;
+  font-size: 30px;
+  text-align: right;
+}
+
+.menu1{
+  position: absolute;
+  top: 40%;
+  left: 190%;
+}
+
+.isi1{
+  position: absolute;
+  top: 40%;
+  padding-left: 0px;
+  text-align: right;
+}
+
+.menu2{
+  position: absolute;
+  top: 100%;
+  right: 190%;
+}
+
+.isi2{
+  position: absolute;
+  top: 100%;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.menu3{
+  position: absolute;
+  top: 160%;
+  left: 190%;
+}
+
+.isi3{
+  position: absolute;
+  top: 160%;
+  padding-left: 0px;
+  text-align: right;
+}
+
+.menu4{
+  position: absolute;
+  top: 220%;
+  right: 190%;
+}
+
+.isi4{
+  position: absolute;
+  top: 220%;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.container1{
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.container2{
+  width: 300px;
+  position: absolute;
+  top: 100%;
+  right: 20%;
+}
+
+.container3{
+  width: 300px;
+  position: absolute;
+  top: 160%;
+  left: 20%;
+}
+
+.container4{
+  width: 300px;
+  position: absolute;
+  top: 220%;
+  right: 20%;
+}
+
+footer {
+    background-color: #f7e7d8;
+    color: #3C2A21;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nama {
+  color: #3C2A21;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: header_font;
+}
+
+.content{
+  color: #3C2A21;
+  font-family: perpetua;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0 40px 200px;
+}
+
+.pesen{
+  padding: 10px;
+  color:#3C2A21;
+  border-radius: 10px;
+  border: 1px solid #3C2A21;
+  text-decoration: none;
+}
+
+.pesen:hover{
+  background-color: #f7e7d8;
+}
+
+.formulir{
+  color: #3C2A21;
+  padding: 0px 0px 0px 200px;
+  font-family: perpetua;
+  font-size: 30px;
+  text-align: left;
+}
+
+form{
+  color: #3C2A21;
+  padding: 0px 0px 0px 200px;
+  font-family: perpetua;
+  font-size: 20px;
+  text-align: left;
+}
+
+  

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
+    <title>Order</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="cookie.png" width="100px"></a>
+        <p>Cookie Jar</p>
+    </header>
+    
+    <nav>
+        <a class="satu", href="index.html">Beranda</a>
+        <a class="satu", href="tentang.html">About Us</a>
+        <a class="satu", href="menu.html">Menu</a>
+        <a class="satu", href="pesan.html">Order</a>
+    </nav>
+
+    <main>
+        <div class="formulir">
+        <h2>Order Sekarang</h2>
+        <P>Harap isi form berikut.</P>
+        </div>
+    </main>
+    <div class="order">
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="number">Phone Number</label><br>
+        <input type="text" id="number" name="number" required><br>     
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="alamat">Address</label><br>
+        <textarea rows="3" cols="40" name="alamat"></textarea><br>     
+        <label>Menu</label><br>
+        <input type="radio" id="chocolate" name="cookie" value="chocolate">
+        <label for="chocolate">Chocolate Chip Cookie</label><br>
+        <input type="radio" id="matcha" name="cookie" value="matcha">
+        <label for="matcha">Matcha Cookie</label><br>
+        <input type="radio" id="redvelvet" name="cookie" value="redvelvet">
+        <label for="redvelvet">Red Velvet Cookie</label><br>
+        <input type="radio" id="biscoff" name="cookie" value="biscoff">
+        <label for="biscoff">Biscoff Cookie</label><br><br>
+        <label for="jumlah">Quantity</label>
+		<input type="number" id="jumlah" name="jumlah" min="1" max="10" required><br><br>     
+        <label for="deliv">Delivery</label><br>
+        <select id="deliv" name="deliv"><br>
+          <option value="1">Pick Up</option>
+          <option value="2">Courier</option>
+        </select><br><br>
+        <label for="file">Payment Proof</label><br>
+        <input type="file" id="file" name="file"><br><br>
+        <label for="checkbox">Make sure your data is correct!</label><br>
+        <input type="checkbox" name="checkbox" value="check">Yes, already correct<br><br>
+        <input type="submit" value="Place Order">
+      </form>
+      </div>
+
+      <footer>
+        <div class="container">
+          <p>Copyright &copy; 2023 - Cookie Jar</p>
+        </div>
+      </footer>
+      
+
+
+</body>
+</html>
